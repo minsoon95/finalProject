@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="http://kit.fontawesome.com/b99e675b6e.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/mypage.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="header"></div>
+
+<div class="wrapper">
+	<div class="sidebar">
+		<h2>마이페이지</h2>
+		<ul>
+			<li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+
+
+			<li><a href="#"><i class="fas fa-address-card"></i>산책모임</a></li>
+			<li><a href="#"><i class="fas fa-project-diagram"></i>펫시터</a></li>
+
+			<li><a href="#"><i class="fas fa-project-diagram"></i>팔로우</a></li>
+
+			<li><a href="#"><i class="fas fa-user"></i>내정보관리</a> <!-- <ul class="more">
+				<li><a href="">회원 정보 조회</a></li>
+				<li><a href="myinf_change2.jsp">회원 정보 수정(닉네임변경)</a></li>
+				<li><a href="myinf_change2.jsp">비밀번호 변경</a></li>
+				<li><a href="withdrawal.jsp">회원 탈퇴</a></li>
+			</ul> --></li>
+		</ul>
+
+
+	</div>
+
+	<div class="main_content">
+		<div class="header">
+			<i class="fas fa-home">마이페이지 (개인) 홈</i>
+		</div>
+		
+		<div class="info">
+		
+			<div id="my-inf">
+				<h1>마이프로필</h1> 
+				<br>
+				<form action="" class="form-inline">
+				
+					<div class="form-group">
+						<label for="nick">닉네임</label> 
+						<input type="text" id="nick" value="박민순"
+							class="form-control" required="required">
+					</div><br>
+					
+					<div class="form-group">
+						<label for="tel">연락처</label> 
+						<input type="text" id="tel" value="010-3308-8316"
+							class="form-control" required="required">
+					</div><br>
+
+					<div class="form-group">
+						<label for="email">이메일</label> 
+						<input type="text" id="email" value="baminha@naver.com"
+						 class="form-control" required="required">
+					</div><br>
+						
+						
+					<div class="form-group">
+						<label for="txtPw">주소</label> 
+						<input type="text" id="addr" value="계양구 장제로 995번길 44"
+						class="form-control" required="required">
+					</div><br>
+					
+					<a href="myinf_change1.jsp" class="btn btn-primary">회원정보 변경</a>
+
+				</form>
+
+			</div>
+			
+		</div>
+
+				
+
+	</div>
+
+	
+
+</div>
+
+<div id="footer"></div>
+</body>
+</html>
